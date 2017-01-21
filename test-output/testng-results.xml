@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="713258" started-at="2017-01-15T09:14:56Z" finished-at="2017-01-15T09:26:50Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="713258" started-at="2017-01-15T09:14:56Z" finished-at="2017-01-15T09:26:50Z">
+      <class name="com.testcase.Lexus">
+        <test-method status="PASS" signature="beforeclass(java.lang.String)[pri:0, instance:com.testcase.Lexus@464bee09]" name="beforeclass" is-config="true" duration-ms="2579" started-at="2017-01-15T09:14:56Z" finished-at="2017-01-15T09:14:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method status="PASS" signature="LexusCar()[pri:0, instance:com.testcase.Lexus@464bee09]" name="LexusCar" duration-ms="707750" started-at="2017-01-15T09:14:59Z" finished-at="2017-01-15T09:26:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LexusCar -->
+        <test-method status="PASS" signature="StatusScreenShots(org.testng.ITestResult)[pri:0, instance:com.testcase.Lexus@464bee09]" name="StatusScreenShots" is-config="true" duration-ms="1618" started-at="2017-01-15T09:26:47Z" finished-at="2017-01-15T09:26:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LexusCar status=SUCCESS method=Lexus.LexusCar()[pri:0, instance:com.testcase.Lexus@464bee09] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StatusScreenShots -->
+        <test-method status="PASS" signature="End()[pri:0, instance:com.testcase.Lexus@464bee09]" name="End" is-config="true" duration-ms="1278" started-at="2017-01-15T09:26:48Z" finished-at="2017-01-15T09:26:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- End -->
+      </class> <!-- com.testcase.Lexus -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
